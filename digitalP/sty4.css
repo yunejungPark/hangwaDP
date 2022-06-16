@@ -1,0 +1,546 @@
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+  @font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  body {
+    font-size: 14px;
+  }
+  .all {
+    width: 100%;
+    height: 3872px;
+    background: rgba(245,238,220,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .r1 {
+    width: 100%;
+    height: 828px;
+    background: rgba(255,223,205,1);
+    opacity: 1;
+    position: absolute;
+    top: 1123px;
+    left: 3px;
+    overflow: hidden;
+  }
+  .r2 {
+    width: 100%;
+    height: 828px;
+    background: rgba(255,223,205,1);
+    opacity: 1;
+    position: absolute;
+    top: 2905px;
+    left: 4px;
+    overflow: hidden;
+  }
+  .Je1 {
+    width: 227px;
+    height: 259px;
+    background-image: url("img/imgF/f_4/b_227259.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3216px;
+    left: 490px;
+    overflow: hidden;
+  }
+  .Je2 {
+    width: 228px;
+    height: 259px;
+    background-image: url("img/imgF/f_4/b_227259_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3216px;
+    left: 727px;
+    overflow: hidden;
+  }
+  .Je3 {
+    width: 228px;
+    height: 259px;
+    background-image: url("img/imgF/f_4/b_227259_3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3216px;
+    left: 965px;
+    overflow: hidden;
+  }
+  .Je4 {
+    width: 226px;
+    height: 259px;
+    background-image: url("img/imgF/f_4/b_227259_4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3216px;
+    left: 1203px;
+    overflow: hidden;
+  }
+  .t1 {
+    width: 337px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 736px;
+    left: 398px;
+    font-family: '양진체';
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+  .t2 {
+    width: 600px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 663px;
+    left: 493px;
+    font-family: '양진체';
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .t3 {
+    width: 337px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 1455px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+  .t4 {
+    width: 137px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 3121px;
+    left: 490px;
+    font-family: '양진체';
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+  .t5 {
+    width: 944px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 1317px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t6 {
+    width: 943px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 1775px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t7 {
+    width: 944px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 2099px;
+    left: 487px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t8 {
+    width: 943px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 2420px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t9 {
+    width: 944px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 3039px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t10 {
+    width: 227px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 3493px;
+    left: 490px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t11 {
+    width: 228px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 3491px;
+    left: 727px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t12 {
+    width: 228px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 3491px;
+    left: 965px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t13 {
+    width: 226px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 3491px;
+    left: 1203px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .t14 {
+    width: 944px;
+    color: rgba(127,181,145,1);
+    position: absolute;
+    top: 2740px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    line-height: 25px;
+  }
+  .himg {
+    width: 100%;
+    height: 405px;
+    background-image: url("img/imgF/f_4/b_1920405_3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 126px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .me1 {
+    width: 944px;
+    height: 480px;
+    background-image: url("img/imgF/f_4/b_944480.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 813px;
+    left: 488px;
+    overflow: hidden;
+  }
+  .e2 {
+    width: 944px;
+    height: 185px;
+    background-image: url("img/imgF/f_4/b_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1851px;
+    left: 487px;
+    overflow: hidden;
+  }
+  .e5 {
+    width: 944px;
+    height: 185px;
+    background-image: url("img/imgF/f_4/b_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2793px;
+    left: 490px;
+    overflow: hidden;
+  }
+  .e4 {
+    width: 944px;
+    height: 186px;
+    background-image: url("img/imgF/f_4/b_3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2494px;
+    left: 490px;
+    overflow: hidden;
+  }
+  .mt1 {
+    width: 138px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 1731px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .mt2 {
+    width: 138px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 2057px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .mt3 {
+    width: 138px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 2377px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .mt4 {
+    width: 138px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 2697px;
+    left: 489px;
+    font-family: '양진체';
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .mt5 {
+    width: 138px;
+    color: rgba(225,100,90,1);
+    position: absolute;
+    top: 2996px;
+    left: 488px;
+    font-family: '양진체';
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .e3 {
+    width: 944px;
+    height: 185px;
+    background-image: url("img/imgF/f_4/b_4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2177px;
+    left: 487px;
+    overflow: hidden;
+  }
+  .e1 {
+    width: 944px;
+    height: 185px;
+    background-image: url("img/imgF/f_4/b_944185_5.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1532px;
+    left: 488px;
+    overflow: hidden;
+  }
+  .headerb {
+    width: 100%;
+    height: 126px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  a{
+    text-decoration: none;
+    color:rgba(221,74,72,1);
+  }
+  
+  a:hover{
+    color:rgb(72, 255, 154);
+  }
+
+  .header {
+    width: 100%;
+    height: 126px;
+    background: rgba(236,179,144,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .ht1 {
+    width: 103px;
+    color: rgba(221,74,72,1);
+    position: absolute;
+    top: 48px;
+    left: 889px;
+    font-family: '양진체';
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .ht2 {
+    width: 102px;
+    color: rgba(221,74,72,1);
+    position: absolute;
+    top: 48px;
+    left: 1045px;
+    font-family: '양진체';
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .ht3 {
+    width: 103px;
+    color: rgba(221,74,72,1);
+    position: absolute;
+    top: 48px;
+    left: 1200px;
+    font-family: '양진체';
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .ht4 {
+    width: 103px;
+    color: rgba(221,74,72,1);
+    position: absolute;
+    top: 48px;
+    left: 1355px;
+    font-family: '양진체';
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .ht5 {
+    width: 103px;
+    color: rgba(221,74,72,1);
+    position: absolute;
+    top: 48px;
+    left: 1510px;
+    font-family: '양진체';
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .logo {
+    width: 181px;
+    height: 95px;
+    background-image: url("img/imgF/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    left: 297px;
+    overflow: hidden;
+  }
+  .footerb {
+    width: 100%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3702px;
+    left: 3px;
+    overflow: hidden;
+  }
+  .footer {
+    width: 100%;
+    height: 170px;
+    background: rgba(192,216,192,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .logo1 {
+    width: 216px;
+    height: 109px;
+    background-image: url("img/imgF/logo1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 30px;
+    left: 843px;
+    overflow: hidden;
+  }

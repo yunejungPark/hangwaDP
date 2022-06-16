@@ -1,0 +1,1439 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: '양진체';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 14px;
+}
+.all {
+  width: 100%;
+  height: 4301px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.bodyB1 {
+  width: 100%;
+  height: 100%;
+  background: rgba(245,238,220,1);
+  opacity: 1;
+  position: absolute;
+  top: 87px;
+  left: 0px;
+  overflow: hidden;
+}
+.bodyB2 {
+  width: 100%;
+  height: 590px;
+  background: rgba(245,238,220,1);
+  opacity: 1;
+  position: absolute;
+  top: 2107px;
+  left: 0px;
+  overflow: hidden;
+}
+.bodyR1 {
+  width: 100%;
+  height: 774px;
+  background: rgba(255,223,205,1);
+  opacity: 1;
+  position: absolute;
+  top: 1354px;
+  left: 0px;
+  overflow: hidden;
+}
+.bodyR2 {
+  width: 100%;
+  height: 600px;
+  background: rgba(255,223,205,1);
+  opacity: 1;
+  position: absolute;
+  top: 2688px;
+  left: 0px;
+  overflow: hidden;
+}
+.e1 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 734px;
+  left: 488px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+
+}
+
+.e1:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+
+}
+
+  #ex1{ 
+    opacity: 0; 
+    display: flex;
+
+    } 
+    
+  .e1:hover #ex1{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+
+    }
+
+
+.e4 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 734px;
+  left: 1203px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+
+.e4:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex4{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e4:hover #ex4{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-weight: ExtraBold;
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e7 {
+  width: 228px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_7.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1003px;
+  left: 965px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e7:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex7{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e7:hover #ex7{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e9 {
+  width: 225px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1530px;
+  left: 492px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e9:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+
+}
+
+  #ex9{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e9:hover #ex9{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e17 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/yang/y_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2354px;
+  left: 483px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e17:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+
+}
+
+  #ex17{ 
+    opacity: 0; 
+    display: flex;
+
+    } 
+    
+  .e17:hover #ex17{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e21 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/you/o_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2910px;
+  left: 483px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e21:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex21{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e21:hover #ex21{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e25 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3519px;
+  left: 470px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e25:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex25{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e25:hover #ex25{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e31 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_7.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3791px;
+  left: 946px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e31:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex31{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e31:hover #ex31{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e12 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1530px;
+  left: 1203px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e12:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex12{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e12:hover #ex12{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e20 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/yang/y_4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2354px;
+  left: 1195px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e20:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex20{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e20:hover #ex20{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e24 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/you/o_4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2910px;
+  left: 1196px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e24:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex24{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e24:hover #ex24{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e28 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3519px;
+  left: 1186px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e28:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex28{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e28:hover #ex28{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+
+.e2 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 734px;
+  left: 726px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e2:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex2{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e2:hover #ex2{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e5 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_5.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1003px;
+  left: 488px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e5:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex5{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e5:hover #ex5{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e8 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_8.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1003px;
+  left: 1203px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e8:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex8{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e8:hover #ex8{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e10 {
+  width: 228px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1530px;
+  left: 727px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e10:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex10{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e10:hover #ex10{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e18 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/yang/y_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2354px;
+  left: 720px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e18:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex18{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e18:hover #ex18{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e22 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/you/o_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2910px;
+  left: 720px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e22:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex22{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e22:hover #ex22{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e26 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3519px;
+  left: 708px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e26:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex26{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e26:hover #ex26{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e32 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_8.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3791px;
+  left: 1186px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e32:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex32{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e32:hover #ex32{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e13 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_5.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1799px;
+  left: 488px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e13:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex13{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e13:hover #ex13{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e19 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/yang/y_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2354px;
+  left: 957px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e19:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex19{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e19:hover #ex19{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e29 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_5.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3791px;
+  left: 470px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e29:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex29{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e29:hover #ex29{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e3 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 734px;
+  left: 964px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e3:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex3{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e3:hover #ex3{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e6 {
+  width: 228px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/duck/u_6.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1003px;
+  left: 727px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e6:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex6{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e6:hover #ex6{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e11 {
+  width: 228px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1530px;
+  left: 965px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e11:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex11{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e11:hover #ex11{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e23 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/you/o_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2910px;
+  left: 957px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e23:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex23{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e23:hover #ex23{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e27 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3519px;
+  left: 946px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e27:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex27{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e27:hover #ex27{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e14 {
+  width: 228px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_6.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1799px;
+  left: 727px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e14:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex14{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e14:hover #ex14{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e15 {
+  width: 228px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_7.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1799px;
+  left: 965px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e15:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex15{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e15:hover #ex15{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e16 {
+  width: 228px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/gang/g_8.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1799px;
+  left: 1204px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e16:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex16{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e16:hover #ex16{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.e30 {
+  width: 229px;
+  height: 211px;
+  background-image: url("img/imgF/f_2/drink/d_6.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3791px;
+  left: 708px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.e30:hover{
+  background: rgba(192,216,192,1);
+  background-image: url("img/imgF/logo3.png");
+  display: flex;
+}
+
+  #ex30{ 
+    opacity: 0; 
+    display: flex;
+    } 
+    
+  .e30:hover #ex30{ 
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    opacity: 1; 
+    font-family: '양진체';
+    font-size: 35px;
+    color: rgb(233, 73, 73);
+    }
+
+.tex1 {
+  width: 466px;
+  color: rgba(127,181,145,1);
+  position: absolute;
+  top: 623px;
+  left: 726px;
+  font-family: '양진체';
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.tex2 {
+  width: 228px;
+  color: rgba(127,181,145,1);
+  position: absolute;
+  top: 1424px;
+  left: 847px;
+  font-family: '양진체';
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.tex3 {
+  width: 484px;
+  color: rgba(127,181,145,1);
+  position: absolute;
+  top: 2217px;
+  left: 712px;
+  font-family: '양진체';
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.tex4 {
+  width: 484px;
+  color: rgba(127,181,145,1);
+  position: absolute;
+  top: 2771px;
+  left: 712px;
+  font-family: '양진체';
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.tex5 {
+  width: 484px;
+  color: rgba(127,181,145,1);
+  position: absolute;
+  top: 3372px;
+  left: 699px;
+  font-family: '양진체';
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.mainE {
+  width: 100%;
+  height: 405px;
+  background-image: url("img/imgF/f_1/img/f_1924405.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 121px;
+  left: 0px;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  height: 126px;
+  background-image: url("img/imgF/f_1/img/f_1924405.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color:rgba(221,74,72,1);
+}
+
+a:hover{
+  color:rgb(72, 255, 154);
+}
+
+.headerbox {
+  width: 100%;
+  height: 126px;
+  background: rgba(236,179,144,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.htex1 {
+  width: 103px;
+  color: rgba(221,74,72,1);
+  position: absolute;
+  top: 48px;
+  left: 889px;
+  font-family: '양진체';
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.htex2 {
+  width: 102px;
+  color: rgba(221,74,72,1);
+  position: absolute;
+  top: 48px;
+  left: 1045px;
+  font-family: '양진체';
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.htex3 {
+  width: 103px;
+  color: rgba(221,74,72,1);
+  position: absolute;
+  top: 48px;
+  left: 1200px;
+  font-family: '양진체';
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.htex4 {
+  width: 103px;
+  color: rgba(221,74,72,1);
+  position: absolute;
+  top: 48px;
+  left: 1355px;
+  font-family: '양진체';
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.htex5 {
+  width: 103px;
+  color: rgba(221,74,72,1);
+  position: absolute;
+  top: 48px;
+  left: 1510px;
+  font-family: '양진체';
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.logo1 {
+  width: 181px;
+  height: 95px;
+  background-image: url("img/imgF/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 297px;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4131px;
+  left: 0px;
+  overflow: hidden;
+}
+.footerbox {
+  width: 100%;
+  height: 170px;
+  background: rgba(192,216,192,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.logo2 {
+  width: 216px;
+  height: 109px;
+  background-image: url("img/imgF/logo1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 843px;
+  overflow: hidden;
+}
